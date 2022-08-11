@@ -5,7 +5,7 @@ on:
       - main
       - release/*
       - develop
-    paths: "frontend/**"
+    paths: "test/**"
 
 jobs:
   lhci:
