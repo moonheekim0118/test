@@ -103,5 +103,6 @@ jobs:
       - name: comment PR
         uses: marocchino/sticky-pull-request-comment@v2
         with:
+          github-token: ${{secrets.GITHUB_TOKEN}}
           message: |
             ${{ steps.format_lighthouse_score.outputs.comments}}
